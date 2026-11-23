@@ -1,0 +1,10 @@
+{
+  "provider": "openai",
+  "model": "gpt-image-2",
+  "purpose": "background",
+  "prompt": "A separate understated warm ivory and muted sage material background, soft diffuse daylight and delicate paper texture. Quiet tonal variation, no distinct objects. Preserve calm low-contrast negative space throughout for live typography and an independently placed product photograph. Background asset only; do not draw a product, people, lettering, prices, QR codes, logos or a complete poster.",
+  "size": {"width": 1152, "height": 2048},
+  "quality": "low",
+  "background": "opaque",
+  "output": "assets/openai-background-001.png"
+}

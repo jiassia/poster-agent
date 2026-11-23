@@ -1,0 +1,50 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+node_modules/
+out/
+.trace/
+*.tar.gz
+*.zip
+.venv/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+site-dist/
+
+.runtime/
+
+# Poster Agent credentials stay outside the repository. Defense in depth only.
+.env
+.env.*
+*.api-key
+*.secret
+secrets/
+
+# Standalone Agent private model config and working projects
+app/config.local.json
+.poster-agent/
+
+app/config.local.json.*
+
+# Local tests and fixtures are excluded from the public repository.
+/tests/
+/test/
+**/tests/
+**/fixtures/
+/scripts/*-test.mjs
+/scripts/*-e2e.mjs
+/scripts/smoke.mjs
+/scripts/*probe*
+/scripts/*audit*
+/skills/poster-agent/scripts/providers/mock-image.mjs
+
+# Local build, log and credential artifacts.
+dist/
+*.log
+*.sha256
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,5 @@
+# Modified 2026-11-10: independent Poster Agent invocation.
+interface:
+  display_name: "Poster Agent"
+  short_description: "Create editable fixed-canvas visual designs"
+  default_prompt: "Use $poster-agent to create and render a polished fixed-canvas design with editable HTML and a layer breakdown."

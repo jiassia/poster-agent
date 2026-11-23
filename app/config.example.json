@@ -1,0 +1,14 @@
+{
+  "model": {
+    "apiFormat": "responses",
+    "baseURL": "https://api.openai.com/v1",
+    "model": "",
+    "apiKey": ""
+  },
+  "image": {
+    "enabled": false,
+    "baseURL": "https://api.openai.com/v1",
+    "model": "gpt-image-2.6-flare",
+    "apiKey": ""
+  }
+}
